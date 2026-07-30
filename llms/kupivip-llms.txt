@@ -1,0 +1,55 @@
+# KupiVIP
+
+> KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium
+> fashion — women's and men's apparel, footwear, bags, accessories and home goods
+> from 250+ international designer brands, sold at discounts of up to 90% off
+> previous-season collections. The storefront is a consumer e-commerce site built
+> on 1C-Bitrix; it ships across Russia, publishes an authenticity guarantee, and
+> operates telephone, email, WhatsApp and Telegram customer support.
+
+## Important note for agents
+
+KupiVIP publishes **no public API, no developer portal, and no machine-readable
+interface**. As of the 2026-07-19 probe there is no OpenAPI/Swagger document, no
+GraphQL endpoint, no `/.well-known/` discovery surface, no OAuth or OpenID Connect
+configuration, no SDK on npm/PyPI/RubyGems/Packagist, no GitHub organization, and
+no MCP server. Programmatic integration with KupiVIP is not currently possible
+through any published contract. Do not infer or synthesize endpoints for this
+provider.
+
+## Storefront
+
+- [Home](https://kupivip.ru/): Luxury and premium outlet storefront.
+- [Brands](https://kupivip.ru/brands/): Index of the 250+ designer brands carried.
+- [Women](https://kupivip.ru/zhenshchinam/): Women's apparel, footwear and accessories.
+- [Men](https://kupivip.ru/muzhchinam/): Men's apparel, footwear and accessories.
+
+## Company
+
+- [About](https://kupivip.ru/about/): Company overview, brand count, authenticity claims.
+- [Contacts](https://kupivip.ru/about/contacts/): Phone, email and support hours (09:00-21:00 MSK).
+- [FAQ](https://kupivip.ru/about/faq/): Customer help and frequently asked questions.
+- [Authenticity guarantee](https://kupivip.ru/about/garantii/): Expert verification of goods.
+- [Blog](https://kupivip.ru/blog/): Fashion and styling editorial.
+
+## Commerce and policy
+
+- [Payment](https://kupivip.ru/payment/): Accepted payment methods.
+- [Shipping](https://kupivip.ru/payment/shipping/): Delivery across Russia; free over 30,000 RUB.
+- [Exchange and returns](https://kupivip.ru/payment/obmen-i-vozvrat/): Return and exchange terms.
+- [Terms of sale](https://kupivip.ru/usloviya-prodazhi/): Public offer / conditions of sale.
+- [Privacy policy](https://kupivip.ru/policy/): Personal data handling policy.
+- [Account](https://kupivip.ru/personal/): Customer sign-in and account area.
+
+## Contact
+
+- Phone: +7 800 777 79 01, +7 495 190 79 01
+- Email: info@kupivip.ru
+- Telegram: https://t.me/kupivip2024
+- VK: https://vk.com/kupivipru
+
+## Provenance
+
+- generated: 2026-07-19
+- method: generated
+- source: apis.yml + live probes of https://kupivip.ru (no provider-published llms.txt; /llms.txt returned 404)
