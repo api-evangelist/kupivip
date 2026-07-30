@@ -1,20 +1,50 @@
 aid: kupivip
 name: KupiVIP
-description: 'KupiVIP is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling
+  women''s and men''s apparel, footwear, bags, accessories and home goods from more than 250 international designer
+  brands at discounts of up to 90% on previous-season collections. The 1C-Bitrix storefront ships across Russia,
+  publishes a 100% authenticity guarantee backed by expert verification, offers free delivery on orders over
+  30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally
+  surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe
+  KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kupivip.ru/local/assets/img/logokv.jpg
 url: https://raw.githubusercontent.com/api-evangelist/kupivip/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-enrichment-note: 'Enrichment run 2026-07-19 probed the full developer surface (/.well-known/*, /llms.txt,
+  /openapi.json, /swagger.json, /api, /developer, /developers, /docs), the public package registries (npm, PyPI,
+  RubyGems, Packagist) and GitHub for an organization. All returned 404 or empty. KupiVIP is a consumer storefront
+  with no programmatic surface, so the API-bearing artifacts (openapi/, mcp/, skills/, overlays/, errors/,
+  conventions/, scopes/, authentication/, data-model/, conformance/) are legitimately not applicable and were
+  deliberately not fabricated.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Retail
+- Fashion
+- Apparel
+- Luxury Goods
+- Online Shopping
+- Russia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +53,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.kupivip.ru
+  url: https://kupivip.ru/
+- type: About
+  url: https://kupivip.ru/about/
+- type: Blog
+  url: https://kupivip.ru/blog/
+- type: Support
+  url: https://kupivip.ru/about/contacts/
+- type: HelpCenter
+  url: https://kupivip.ru/about/faq/
+- type: TermsOfService
+  url: https://kupivip.ru/usloviya-prodazhi/
+- type: PrivacyPolicy
+  url: https://kupivip.ru/policy/
+- type: Login
+  url: https://kupivip.ru/personal/
+- type: Telegram
+  url: https://t.me/kupivip2024
+- type: VK
+  url: https://vk.com/kupivipru
+- type: LLMsTxt
+  url: llms/kupivip-llms.txt
+- type: DomainSecurity
+  url: security/kupivip-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
