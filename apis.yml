@@ -32,7 +32,7 @@ x-enrichment-note: 'Enrichment run 2026-07-19 probed the full developer surface 
   with no programmatic surface, so the API-bearing artifacts (openapi/, mcp/, skills/, overlays/, errors/,
   conventions/, scopes/, authentication/, data-model/, conformance/) are legitimately not applicable and were
   deliberately not fabricated.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
