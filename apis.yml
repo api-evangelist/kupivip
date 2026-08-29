@@ -7,6 +7,17 @@ description: 'KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxur
   30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally
   surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe
   KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
